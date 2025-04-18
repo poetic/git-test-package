@@ -4,9 +4,9 @@ interface RecursiveNumbers extends Array<number | RecursiveNumbers> {
 
 /**
  *
- * @param array - An array of numbers
- * @description This function takes an array of numbers and returns the sum of all the numbers in the array.
- * @returns The sum of all the numbers in the array.
+ * @param args - Numbers, Arrays of Numbers, or Nested Arrays of Numbers
+ * @description Sums all args passed to the function, including nested arrays.
+ * @returns Sum of all Args
  * @example
  * ```ts
  * import { sum } from 'poetic/git-test-package';
