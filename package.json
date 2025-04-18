@@ -1,0 +1,30 @@
+{
+  "name": "git-test-package",
+  "version": "1.0.0",
+  "description": "POC package for testing out the usage and viability of the git package system using npm.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "git",
+    "test",
+    "package",
+    "npm"
+  ],
+  "repository": "git@github.com:poetic/git-test-package.git",
+  "author": "Alan Fudge",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "ts-node src/index.test.ts",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
